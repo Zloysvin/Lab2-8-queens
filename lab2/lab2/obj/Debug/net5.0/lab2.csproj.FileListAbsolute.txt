@@ -1,0 +1,16 @@
+C:\Users\R2D2\Desktop\Docs\КПІ\Семестр 3\ПА\Lab2-8-queens\lab2\lab2\bin\Debug\net5.0\lab2.exe
+C:\Users\R2D2\Desktop\Docs\КПІ\Семестр 3\ПА\Lab2-8-queens\lab2\lab2\bin\Debug\net5.0\lab2.deps.json
+C:\Users\R2D2\Desktop\Docs\КПІ\Семестр 3\ПА\Lab2-8-queens\lab2\lab2\bin\Debug\net5.0\lab2.runtimeconfig.json
+C:\Users\R2D2\Desktop\Docs\КПІ\Семестр 3\ПА\Lab2-8-queens\lab2\lab2\bin\Debug\net5.0\lab2.runtimeconfig.dev.json
+C:\Users\R2D2\Desktop\Docs\КПІ\Семестр 3\ПА\Lab2-8-queens\lab2\lab2\bin\Debug\net5.0\lab2.dll
+C:\Users\R2D2\Desktop\Docs\КПІ\Семестр 3\ПА\Lab2-8-queens\lab2\lab2\bin\Debug\net5.0\lab2.pdb
+C:\Users\R2D2\Desktop\Docs\КПІ\Семестр 3\ПА\Lab2-8-queens\lab2\lab2\obj\Debug\net5.0\lab2.csproj.AssemblyReference.cache
+C:\Users\R2D2\Desktop\Docs\КПІ\Семестр 3\ПА\Lab2-8-queens\lab2\lab2\obj\Debug\net5.0\lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\R2D2\Desktop\Docs\КПІ\Семестр 3\ПА\Lab2-8-queens\lab2\lab2\obj\Debug\net5.0\lab2.AssemblyInfoInputs.cache
+C:\Users\R2D2\Desktop\Docs\КПІ\Семестр 3\ПА\Lab2-8-queens\lab2\lab2\obj\Debug\net5.0\lab2.AssemblyInfo.cs
+C:\Users\R2D2\Desktop\Docs\КПІ\Семестр 3\ПА\Lab2-8-queens\lab2\lab2\obj\Debug\net5.0\lab2.csproj.CoreCompileInputs.cache
+C:\Users\R2D2\Desktop\Docs\КПІ\Семестр 3\ПА\Lab2-8-queens\lab2\lab2\obj\Debug\net5.0\lab2.dll
+C:\Users\R2D2\Desktop\Docs\КПІ\Семестр 3\ПА\Lab2-8-queens\lab2\lab2\obj\Debug\net5.0\refint\lab2.dll
+C:\Users\R2D2\Desktop\Docs\КПІ\Семестр 3\ПА\Lab2-8-queens\lab2\lab2\obj\Debug\net5.0\lab2.pdb
+C:\Users\R2D2\Desktop\Docs\КПІ\Семестр 3\ПА\Lab2-8-queens\lab2\lab2\obj\Debug\net5.0\lab2.genruntimeconfig.cache
+C:\Users\R2D2\Desktop\Docs\КПІ\Семестр 3\ПА\Lab2-8-queens\lab2\lab2\obj\Debug\net5.0\ref\lab2.dll
