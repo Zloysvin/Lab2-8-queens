@@ -6,12 +6,11 @@ namespace lab2
     {
         static void Main(string[] args)
         {
-            Queen[] beginQueens = new Queen[8];
+            int[] beginQueens = new int[8];
             Console.WriteLine("Begin State:");
             for (int i = 0; i < 8; i++)
             {
-                beginQueens[i] = new Queen();
-                beginQueens[i].y = Random.Shared.Next(8);
+                beginQueens[i] = Random.Shared.Next(8);
             }
             Console.WriteLine();
             State root = new State(beginQueens);

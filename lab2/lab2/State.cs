@@ -9,17 +9,17 @@ namespace lab2
 {
     public class State
     {
-        public Queen[] Board{get; private set; }
+        public int[] Board{get; private set; }
 
         public int f_coef = 0;
 
         public State()
         {
-            Board = new Queen[8];
+            Board = new int[8];
         }
-        public State(Queen[] board)
+        public State(int[] board)
         {
-            Board = new Queen[8];
+            Board = new int[8];
             for (int i = 0; i < 8; i++)
             {
                 Board[i] = board[i];
@@ -34,7 +34,7 @@ namespace lab2
                 {
                     if (i != j)
                     {
-                        if (Board[i].y == Board[j].y || j-i == Board[j].y - Board[i].y || j - i == -(Board[j].y - Board[i].y))
+                        if (Board[i] == Board[j] || j-i == Board[j] - Board[i] || j - i == -(Board[j] - Board[i]))
                         {
                             return true;
                         }
@@ -58,7 +58,7 @@ namespace lab2
                 {
                     if (i != j && !paired[i] && !paired[j])
                     {
-                        if (Board[i].y == Board[j].y || j - i == Board[j].y - Board[i].y || j - i == -(Board[j].y - Board[i].y))
+                        if (Board[i] == Board[j] || j - i == Board[j] - Board[i] || j - i == -(Board[j] - Board[i]))
                         {
                             paired[j] = true;
                             pairs++;
@@ -76,17 +76,17 @@ namespace lab2
             List<State> expandedStates = new List<State>();
             for (int i = 0; i < 8; i++)
             {
-                int y = Board[i].y;
+                int y = Board[i];
                 for (int j = 0; j < 7; j++)
                 {
                     State tempState = new State(Board);
                     if (y <= j)
                     {
-                        tempState.Board[i].y = j+1;
+                        tempState.Board[i] = j+1;
                     }
                     else
                     {
-                        tempState.Board[i].y = j;
+                        tempState.Board[i] = j;
                     }
                     expandedStates.Add(tempState);
                 }
@@ -100,7 +100,7 @@ namespace lab2
             {
                 for (int j = 0; j < 8; j++)
                 {
-                    if (Board[j].y == 7-i)
+                    if (Board[j] == 7-i)
                     {
                         Console.Write("&");
                     }
