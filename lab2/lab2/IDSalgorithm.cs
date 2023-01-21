@@ -9,15 +9,20 @@ namespace lab2
 {
     public static class IDSalgorithm
     {
+        private static int deadends = 0;
         public static State Execute(State root)
         {
             DateTime dt = DateTime.Now;
             State result = root;
             int depth = 0;
+            int iterations = 0;
+            deadends = 0;
             while (result == null || result.QueensHits())
             {
                 bool remaning = false;
                 result = DLS(root, depth, ref remaning);
+                deadends = 0;
+                iterations++;
                 if (result != null)
                 {
                     break;
@@ -30,7 +35,6 @@ namespace lab2
                 depth++;
             }
             Console.WriteLine("Time: " + (DateTime.Now-dt).TotalSeconds + " s");
-            Console.WriteLine($"Depth: {depth}");
             return result;
         }
 
